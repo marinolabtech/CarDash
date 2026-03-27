@@ -1,13 +1,13 @@
 {
   "bridge": {
-    "versionCode": 1,
-    "versionName": "1.0",
+    "versionCode": 2,
+    "versionName": "2.0",
     "url": "https://github.com/stramari/MarinoLab/releases",
     "changelog": "Versione iniziale con Radio e Parcheggio."
   },
   "server": {
-    "versionCode": 1,
-    "versionName": "1.0",
+    "versionCode": 2,
+    "versionName": "2.0",
     "url": "https://github.com/stramari/MarinoLab/releases",
     "changelog": "Versione iniziale con Gateway Notifiche e Licenze."
   }
