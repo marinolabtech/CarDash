@@ -171,9 +171,9 @@ Il progetto è un sistema **multi-modulo Gradle**:
 
 1. `Build > Generate Signed Bundle / APK` → seleziona il modulo → modalità **Release**
 2. I file si trovano in `app-bridge/release` e `app-server/release`
-3. Carica gli APK su GitHub nelle cartelle:
-   - `cardash/client/Cardash_CLIENT.apk`
-   - `cardash/server/Cardash_SERVER.apk`
+3. Su GitHub vai su **Releases → Create a new release**, crea un tag (es. `v1.1`) e allega i file:
+   - `cardash_server.apk`
+   - `cardash_client.apk`
 4. Modifica `cardash/version.json` incrementando `versionCode` e aggiornando `changelog`
 5. Al prossimo avvio, gli utenti ricevono la notifica di aggiornamento automatica
 
@@ -192,10 +192,10 @@ docs/
     ├── radio.png                ← Modulo radio
     ├── telefono.png             ← Tastierino + rubrica
     ├── parking_tablet.png       ← Dialogo salva parcheggio (tablet)
-    ├── server_main.png          ← Pannello principale server
-    ├── server_parking.png       ← Salva parcheggio server
-    ├── compass.png              ← Guida bussola
-    └── license.png              ← Schermata attivazione licenza
+    ├── server_main.jpg          ← Pannello principale server
+    ├── server_parking.jpg       ← Salva parcheggio server
+    ├── compass.jpg              ← Guida bussola
+    └── license.jpg              ← Schermata attivazione licenza
 ```
 
 ---
