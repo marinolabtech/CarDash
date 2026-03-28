@@ -102,9 +102,11 @@ Enable Wi-Fi hotspot on the smartphone → launch CarDash Server → launch CarD
 
 ## 🔑 License & Pricing
 
+**The apps are free to download.** Use the links above to get the APKs directly from GitHub.
+
 The system includes a **free 7-day trial** with all features enabled. No credit card required.
 
-At the end of the trial, you can purchase the full license at:
+After the trial, purchase your license key at:
 
 👉 **[marinolab.lemonsqueezy.com](https://marinolab.lemonsqueezy.com/)**
 

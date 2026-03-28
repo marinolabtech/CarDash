@@ -102,9 +102,11 @@ Attiva l'hotspot Wi-Fi sullo smartphone → avvia CarDash Server → avvia CarDa
 
 ## 🔑 Licenza & Prezzi
 
+**Le app sono gratuite da scaricare.** Usa i link sopra per ottenere gli APK direttamente da GitHub.
+
 Il sistema include un **trial gratuito di 7 giorni** con tutte le funzionalità attive. Nessuna carta di credito richiesta.
 
-Al termine del trial, puoi acquistare la licenza full su:
+Al termine del trial, puoi acquistare la chiave di licenza su:
 
 👉 **[marinolab.lemonsqueezy.com](https://marinolab.lemonsqueezy.com/)**
 
