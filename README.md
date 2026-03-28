@@ -1,204 +1,171 @@
 ![Marino Lab Banner](docs/screenshots/marinolab_banner.png)
 
+> 🇮🇹 [Leggi in Italiano](README_IT.md) | 🇬🇧 Reading in English
+
 # 🚗 CarDash System
 ### Android Infotainment & Phone Gateway
 
-> Trasforma il tuo smartphone e un tablet in un sistema di infotainment professionale per l'auto — senza modifiche hardware.
+> Turn your smartphone and a tablet into a professional in-car infotainment system — no hardware modifications required.
 
 [![Version](https://img.shields.io/badge/version-1.0-cyan?style=flat-square)](https://github.com/stramari/MarinoLab/releases/latest)
 [![Android](https://img.shields.io/badge/Android-5.0%2B-green?style=flat-square&logo=android)](https://github.com/stramari/MarinoLab/releases/latest)
-[![License](https://img.shields.io/badge/licenza-Trial%207gg%20%7C%20Full-orange?style=flat-square)](https://marinolab.lemonsqueezy.com/)
+[![License](https://img.shields.io/badge/license-Trial%207d%20%7C%20Full-orange?style=flat-square)](https://marinolab.lemonsqueezy.com/)
 [![Download](https://img.shields.io/badge/⬇%20Download-APK-blue?style=flat-square)](https://github.com/stramari/MarinoLab/releases/latest)
-[![Lingua](https://img.shields.io/badge/lingua-Italiano%20%7C%20English-lightgrey?style=flat-square)](https://github.com/stramari/MarinoLab)
+[![Language](https://img.shields.io/badge/language-Italiano%20%7C%20English-lightgrey?style=flat-square)](https://github.com/stramari/MarinoLab)
 
 ---
 
-## 📸 Anteprima
+## 📸 Screenshots
 
-### Dashboard Principale (Tablet)
-> Tachimetro digitale, radio attiva, scorciatoie alle app e salvataggio parcheggio — tutto in un colpo d'occhio.
+### Main Dashboard (Tablet)
+> Digital speedometer, active radio, app shortcuts and parking save — everything at a glance.
 
-![Dashboard Principale](docs/screenshots/dashboard_main.png)
+![Main Dashboard](docs/screenshots/dashboard_main.png)
 
 ### Google Maps + Floating Sidebar
-> Il tablet usa il GPS del telefono per navigare con Google Maps o Waze — anche senza GPS hardware. La barra laterale flottante rimane sempre accessibile.
+> The tablet uses the phone's GPS to run Google Maps or Waze — even without hardware GPS. The floating sidebar stays always accessible.
 
-![Google Maps con sidebar](docs/screenshots/maps_floating.png)
+![Google Maps with sidebar](docs/screenshots/maps_floating.png)
 
-### Radio Web Integrata
-> Migliaia di stazioni italiane e mondiali, preferiti e controlli play/pausa — tutto senza uscire dalla dashboard.
+### Integrated Web Radio
+> Thousands of Italian and worldwide stations, favorites and play/pause controls — without leaving the dashboard.
 
-![Modulo Radio](docs/screenshots/radio.png)
+![Radio Module](docs/screenshots/radio.png)
 
-### Gestione Chiamate
-> Tastierino e rubrica sincronizzata direttamente dal telefono, ottimizzati per la guida.
+### Call Management
+> Dialpad and contacts synced directly from the phone, optimized for driving.
 
-![Telefono e Rubrica](docs/screenshots/telefono.png)
+![Phone and Contacts](docs/screenshots/telefono.png)
 
-### Salva Parcheggio (Dialogo Tablet)
-> Il sistema mostra la precisione GPS in tempo reale e ti avvisa se il segnale è scarso prima di salvare.
+### Save Parking (Tablet Dialog)
+> The system shows real-time GPS accuracy and warns you if the signal is weak before saving.
 
-![Salva Parcheggio Tablet](docs/screenshots/parking_tablet.png)
+![Save Parking Tablet](docs/screenshots/parking_tablet.png)
 
 ---
 
-### App Server (Smartphone)
+### Server App (Smartphone)
 
-| Pannello Principale | Salva Parcheggio | Guida Bussola |
+| Main Panel | Save Parking | Compass Guide |
 |---|---|---|
-| ![Server Main](docs/screenshots/server_main.jpg) | ![Server Parking](docs/screenshots/server_parking.jpg) | ![Bussola](docs/screenshots/compass.jpg) |
+| ![Server Main](docs/screenshots/server_main.jpg) | ![Server Parking](docs/screenshots/server_parking.jpg) | ![Compass](docs/screenshots/compass.jpg) |
 
-> La **Guida Bussola** ti indica la direzione e la distanza esatta dalla tua auto parcheggiata.
+> The **Compass Guide** shows the direction and exact distance to your parked car.
 
-### Attivazione Licenza
-![Licenza](docs/screenshots/license.jpg)
-
----
-
-## ✨ Funzionalità Principali
-
-### 📱 App Server — sul tuo smartphone
-- **Gateway TCP/UDP** — trasmette GPS, velocità e notifiche al tablet in tempo reale
-- **Mirroring notifiche** — WhatsApp, Maps e altre app appaiono sulla dashboard
-- **Gestione chiamate** — avvio chiamate anche sopra il lock screen
-- **Parking Tracker** — salva la posizione con precisione metrica e ti riporta all'auto tramite bussola grafica
-
-### 🖥️ App Bridge — sul tablet in auto
-- **Tachimetro digitale** — velocità in km/h con stato GPS e connessione server
-- **Mock GPS** — inietta il segnale del telefono nel tablet, abilitando Google Maps e Waze anche senza GPS hardware
-- **Radio Web** — migliaia di stazioni via Radio-Browser API con gestione preferiti
-- **Floating Sidebar** — barra laterale sempre visibile con controlli rapidi
-- **Discovery automatica** — si connette al telefono non appena riconosce l'hotspot Wi-Fi
+### License Activation
+![License](docs/screenshots/license.jpg)
 
 ---
 
-## 🚀 Come Iniziare
+## ✨ Key Features
 
-### Requisiti
-- Uno **smartphone Android** (minSdk 21 / Android 5.0+) con SIM
-- Un **tablet Android** (o autoradio Android) da montare in auto
-- Una connessione Wi-Fi condivisa dallo smartphone (hotspot)
+### 📱 Server App — on your smartphone
+- **TCP/UDP Gateway** — streams GPS, speed and notifications to the tablet in real time
+- **Notification mirroring** — WhatsApp, Maps and other apps appear on the dashboard
+- **Call management** — initiate calls even over the lock screen
+- **Parking Tracker** — saves your position with metric precision and guides you back to your car via compass
 
-### Installazione — 3 passi
+### 🖥️ Bridge App — on the tablet in your car
+- **Digital speedometer** — speed in km/h with GPS and server connection status
+- **Mock GPS** — injects the phone's GPS signal into the tablet, enabling Google Maps and Waze even without hardware GPS
+- **Web Radio** — thousands of stations via Radio-Browser API with favorites management
+- **Floating Sidebar** — always-visible sidebar with quick controls
+- **Auto-discovery** — connects to the phone as soon as it detects the Wi-Fi hotspot
 
-**1. Scarica le app**
+---
 
-| App | Dispositivo | Link |
+## 🚀 Getting Started
+
+### Requirements
+- An **Android smartphone** (minSdk 21 / Android 5.0+) with SIM card
+- An **Android tablet** (or Android head unit) mounted in the car
+- A Wi-Fi connection shared from the smartphone (hotspot)
+
+### Installation — 3 steps
+
+**1. Download the apps**
+
+| App | Device | Link |
 |---|---|---|
 | `CarDash Server` | 📱 Smartphone | [⬇ Download APK](https://github.com/stramari/MarinoLab/releases/latest) |
 | `CarDash Bridge` | 🖥️ Tablet | [⬇ Download APK](https://github.com/stramari/MarinoLab/releases/latest) |
 
-**2. Concedi i permessi**
+**2. Grant permissions**
 
-Entrambe le app guidano l'utente tramite un flow interattivo per i permessi necessari (overlay, notifiche, posizione, chiamate). Ogni permesso è spiegato con il motivo per cui serve.
+Both apps guide the user through an interactive flow for the required permissions (overlay, notifications, location, calls). Each permission is explained with the reason it is needed.
 
-**3. Connetti**
+**3. Connect**
 
-Attiva l'hotspot Wi-Fi sullo smartphone → avvia CarDash Server → avvia CarDash Bridge sul tablet. La connessione avviene in automatico.
+Enable Wi-Fi hotspot on the smartphone → launch CarDash Server → launch CarDash Bridge on the tablet. The connection happens automatically.
 
 ---
 
-## 🔑 Licenza & Prezzi
+## 🔑 License & Pricing
 
-Il sistema include un **trial gratuito di 7 giorni** con tutte le funzionalità attive. Nessuna carta di credito richiesta.
+The system includes a **free 7-day trial** with all features enabled. No credit card required.
 
-Al termine del trial, puoi acquistare la licenza full su:
+At the end of the trial, you can purchase the full license at:
 
 👉 **[marinolab.lemonsqueezy.com](https://marinolab.lemonsqueezy.com/)**
 
-**Non è necessario scaricare o reinstallare nulla.** Dopo l'acquisto riceverai una mail con la tua chiave di licenza nel formato `XXXX-XXXX-XXXX-XXXX`. Inseriscila nell'app Server alla voce **"Attiva Licenza"** — verrà sincronizzata automaticamente anche sul tablet.
+**No reinstallation needed.** After purchase you will receive an email containing your license key in the format `XXXX-XXXX-XXXX-XXXX`. Enter it in the Server app under **"Activate License"** — it will be automatically synced to the tablet as well.
 
-> ⚠️ **Anti-reset**: il sistema di protezione del trial è progettato per resistere a reset della data o reinstallazioni.
+> ⚠️ **Anti-reset**: the trial protection system is designed to resist date resets or reinstallations.
 
 ---
 
 ## ❓ FAQ
 
-**Il tablet ha bisogno del GPS?**
-No. CarDash inietta il segnale GPS del telefono nel sistema Android del tablet, permettendo l'uso di Google Maps e Waze anche su tablet senza GPS hardware.
+**Does the tablet need GPS?**
+No. CarDash injects the phone's GPS signal into the tablet's Android system, enabling Google Maps and Waze even on tablets without hardware GPS.
 
-**Funziona con qualsiasi tablet Android?**
-Sì, da Android 5.0 in poi. Ottimizzato per l'uso in orizzontale.
+**Does it work with any Android tablet?**
+Yes, from Android 5.0 onwards. Optimized for landscape use.
 
-**Perché servono tutti quei permessi?**
-Ogni permesso ha uno scopo preciso: l'overlay serve per la sidebar flottante sopra Maps, le notifiche per il mirroring, la posizione per il GPS e il parking tracker, le chiamate per il tastierino. Nessun dato viene inviato a server esterni.
+**Why are so many permissions required?**
+Each permission has a specific purpose: overlay is needed for the floating sidebar over Maps, notifications for mirroring, location for GPS and the parking tracker, calls for the dialpad. No data is sent to external servers.
 
-**Funziona senza connessione internet?**
-La dashboard, il tachimetro, le chiamate e il parking tracker funzionano completamente offline. La radio web e il controllo aggiornamenti richiedono internet.
+**Does it work without an internet connection?**
+The dashboard, speedometer, calls and parking tracker work completely offline. Web radio and update checks require internet.
 
-**Come ricevo gli aggiornamenti?**
-L'app controlla automaticamente la presenza di nuove versioni su GitHub all'avvio e mostra una notifica con il changelog se disponibile.
+**How do I receive updates?**
+The app automatically checks for new versions on GitHub at startup and displays a notification with the changelog if one is available.
 
 ---
 
-## 📡 Protocollo di Comunicazione
+## 📡 Communication Protocol
 
-| Porta | Protocollo | Uso |
+| Port | Protocol | Usage |
 |---|---|---|
-| `8080` | TCP | Comandi, rubrica, notifiche, licenza |
-| `8888` | UDP | Beacon discovery, telemetria GPS |
-
-| Comando | Descrizione |
-|---|---|
-| `GPS_DATA` | Telemetria completa (Lat, Lon, Vel, Alt) |
-| `SPEED:VAL:ST` | Velocità e stato connessione |
-| `INCOMING` | Chiamata in entrata con nome contatto |
-| `LICENSE_SYNC` | Sincronizzazione licenza tra dispositivi |
-| `GET_CONTACTS` | Recupero rubrica dal tablet |
-| `NOTIFICATION` | Mirroring notifiche app terze |
+| `8080` | TCP | Commands, contacts, notifications, license |
+| `8888` | UDP | Discovery beacon, GPS telemetry |
 
 ---
 
-## 🏗️ Architettura del Progetto
+## 🏗️ Project Architecture
 
-Il progetto è un sistema **multi-modulo Gradle**:
+The project is a **multi-module Gradle system**:
 
-- **`:app-server`** — Foreground Service con beacon UDP, server TCP, telemetria GPS e listener notifiche
-- **`:app-bridge`** — UI ottimizzata per la guida con mock GPS, radio Media3/ExoPlayer e floating sidebar
-- **`:common`** — Libreria condivisa con `LicenseManager` e costanti di comunicazione
+- **`:app-server`** — Foreground Service with UDP beacon, TCP server, GPS telemetry and notification listener
+- **`:app-bridge`** — Driving-optimized UI with mock GPS, Media3/ExoPlayer radio and floating sidebar
+- **`:common`** — Shared library with `LicenseManager` and communication constants
 
-**Stack tecnico:** Kotlin · Android SDK 36 · Media3/ExoPlayer · Radio-Browser API · Lemon Squeezy
+**Tech stack:** Kotlin · Android SDK 36 · Media3/ExoPlayer · Radio-Browser API · Lemon Squeezy
 
 ---
 
 ## 🛠️ Build & Release
 
-### Requisiti di sviluppo
-- Android Studio Hedgehog o superiore
-- Android SDK minSdk 21, targetSdk 36
-- Foreground Service Types dichiarati: `connectedDevice`, `location`, `mediaPlayback`
+### Release a new update
 
-### Rilasciare un aggiornamento
-
-1. `Build > Generate Signed Bundle / APK` → seleziona il modulo → modalità **Release**
-2. I file si trovano in `app-bridge/release` e `app-server/release`
-3. Su GitHub vai su **Releases → Create a new release**, crea un tag (es. `v1.1`) e allega i file:
+1. `Build > Generate Signed Bundle / APK` → select the module → **Release** mode
+2. Files are located in `app-bridge/release` and `app-server/release`
+3. On GitHub go to **Releases → Create a new release**, create a tag (e.g. `v1.1`) and attach:
    - `cardash_server.apk`
    - `cardash_client.apk`
-4. Modifica `cardash/version.json` incrementando `versionCode` e aggiornando `changelog`
-5. Al prossimo avvio, gli utenti ricevono la notifica di aggiornamento automatica
+4. Edit `cardash/version.json` incrementing `versionCode` and updating `changelog`
+5. On next launch, users receive an automatic update notification
 
 ---
 
-## 📂 Struttura Screenshot
-
-Per visualizzare correttamente le immagini in questo README, carica gli screenshot nella seguente struttura:
-
-```
-docs/
-└── screenshots/
-    ├── marinolab_banner.png     ← Banner Marino Lab (in cima al README)
-    ├── dashboard_main.png       ← Dashboard principale tablet
-    ├── maps_floating.png        ← Google Maps + floating sidebar
-    ├── radio.png                ← Modulo radio
-    ├── telefono.png             ← Tastierino + rubrica
-    ├── parking_tablet.png       ← Dialogo salva parcheggio (tablet)
-    ├── server_main.jpg          ← Pannello principale server
-    ├── server_parking.jpg       ← Salva parcheggio server
-    ├── compass.jpg              ← Guida bussola
-    └── license.jpg              ← Schermata attivazione licenza
-```
-
----
-
-**Sviluppato da [Marino Lab](https://marinolab.lemonsqueezy.com/) · CarDash System v1.0 · Ultimo aggiornamento: 28 Marzo 2026**
+**Developed by [Marino Lab](https://marinolab.lemonsqueezy.com/) · CarDash System v1.0 · Last updated: March 28, 2026**
