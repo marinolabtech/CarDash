@@ -9,7 +9,7 @@
 [![Android](https://img.shields.io/badge/Android-5.0%2B-green?style=flat-square&logo=android)](https://github.com/stramari/MarinoLab/releases/latest)
 [![License](https://img.shields.io/badge/licenza-Trial%207gg%20%7C%20Full-orange?style=flat-square)](https://marinolab.lemonsqueezy.com/)
 [![Download](https://img.shields.io/badge/⬇%20Download-APK-blue?style=flat-square)](https://github.com/stramari/MarinoLab/releases/latest)
-[![Lingua](https://img.shields.io/badge/lingua-%F0%9F%87%AE%F0%9F%87%B9%20Italiano%20%7C%20%F0%9F%87%AC%F0%9F%87%A7%20English-lightgrey?style=flat-square)](https://github.com/stramari/MarinoLab)
+[![Lingua](https://img.shields.io/badge/lingua-Italiano%20%7C%20English-lightgrey?style=flat-square)](https://github.com/stramari/MarinoLab)
 
 ---
 
