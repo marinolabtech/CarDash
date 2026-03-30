@@ -2,13 +2,13 @@
   "bridge": {
     "versionCode": 1,
     "versionName": "1.0",
-    "url": "https://github.com/stramari/MarinoLab/releases/download/v1.0/cardash_client.apk",
+    "url": "https://github.com/marinolabtech/CarDash/releases/download/v1.0/cardash_client.apk",
     "changelog": "Versione iniziale con Radio e Parcheggio."
   },
   "server": {
     "versionCode": 1,
     "versionName": "1.0",
-    "url": "https://github.com/stramari/MarinoLab/releases/download/v1.0/cardash_server.apk",
+    "url": "https://github.com/marinolabtech/CarDash/releases/download/v1.0/cardash_server.apk",
     "changelog": "Versione iniziale con Gateway Notifiche e Licenze."
   }
 }
