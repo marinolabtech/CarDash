@@ -20,27 +20,27 @@
 ### Main Dashboard (Tablet)
 > Digital speedometer, active radio, app shortcuts and parking save — everything at a glance.
 
-![Main Dashboard](docs/screenshots/dashboard_main.png)
+<img src="docs/screenshots/dashboard_main.png" width="400"/>
 
 ### Google Maps + Floating Sidebar
 > The tablet uses the phone's GPS to run Google Maps or Waze — even without hardware GPS. The floating sidebar stays always accessible.
 
-![Google Maps with sidebar](docs/screenshots/maps_floating.png)
+<img src="docs/screenshots/maps_floating.png" width="400"/>
 
 ### Integrated Web Radio
 > Thousands of Italian and worldwide stations, favorites and play/pause controls — without leaving the dashboard.
 
-![Radio Module](docs/screenshots/radio.png)
+<img src="docs/screenshots/radio.png" width="400"/>
 
 ### Call Management
 > Dialpad and contacts synced directly from the phone, optimized for driving.
 
-![Phone and Contacts](docs/screenshots/telefono.png)
+<img src="docs/screenshots/telefono.png" width="400"/>
 
 ### Save Parking (Tablet Dialog)
 > The system shows real-time GPS accuracy and warns you if the signal is weak before saving.
 
-![Save Parking Tablet](docs/screenshots/parking_tablet.png)
+<img src="docs/screenshots/parking_tablet.png" width="400"/>
 
 ---
 
@@ -48,12 +48,12 @@
 
 | Main Panel | Save Parking | Compass Guide |
 |---|---|---|
-| ![Server Main](docs/screenshots/server_main.jpg) | ![Server Parking](docs/screenshots/server_parking.jpg) | ![Compass](docs/screenshots/compass.jpg) |
+| <img src="docs/screenshots/server_main.jpg" width="200"/> | <img src="docs/screenshots/server_parking.jpg" width="200"/> | <img src="docs/screenshots/compass.jpg" width="200"/> |
 
 > The **Compass Guide** shows the direction and exact distance to your parked car.
 
 ### License Activation
-![License](docs/screenshots/license.jpg)
+<img src="docs/screenshots/license.jpg" width="300"/>
 
 ---
 
@@ -71,6 +71,7 @@
 - **Web Radio** — thousands of stations via Radio-Browser API with favorites management
 - **Floating Sidebar** — always-visible sidebar with quick controls
 - **Auto-discovery** — connects to the phone as soon as it detects the Wi-Fi hotspot
+- **Smart Auto-Save Parking** — intelligent algorithm that detects the end of a journey (speed 0 km/h for 15s after exceeding 15 km/h) and automatically sends the save command to the Server with visual feedback
 
 ---
 

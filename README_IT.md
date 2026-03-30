@@ -20,27 +20,27 @@
 ### Dashboard Principale (Tablet)
 > Tachimetro digitale, radio attiva, scorciatoie alle app e salvataggio parcheggio — tutto in un colpo d'occhio.
 
-![Dashboard Principale](docs/screenshots/dashboard_main.png)
+<img src="docs/screenshots/dashboard_main.png" width="400"/>
 
 ### Google Maps + Floating Sidebar
 > Il tablet usa il GPS del telefono per navigare con Google Maps o Waze — anche senza GPS hardware. La barra laterale flottante rimane sempre accessibile.
 
-![Google Maps con sidebar](docs/screenshots/maps_floating.png)
+<img src="docs/screenshots/maps_floating.png" width="400"/>
 
 ### Radio Web Integrata
 > Migliaia di stazioni italiane e mondiali, preferiti e controlli play/pausa — tutto senza uscire dalla dashboard.
 
-![Modulo Radio](docs/screenshots/radio.png)
+<img src="docs/screenshots/radio.png" width="400"/>
 
 ### Gestione Chiamate
 > Tastierino e rubrica sincronizzata direttamente dal telefono, ottimizzati per la guida.
 
-![Telefono e Rubrica](docs/screenshots/telefono.png)
+<img src="docs/screenshots/telefono.png" width="400"/>
 
 ### Salva Parcheggio (Dialogo Tablet)
 > Il sistema mostra la precisione GPS in tempo reale e ti avvisa se il segnale è scarso prima di salvare.
 
-![Salva Parcheggio Tablet](docs/screenshots/parking_tablet.png)
+<img src="docs/screenshots/parking_tablet.png" width="400"/>
 
 ---
 
@@ -48,12 +48,12 @@
 
 | Pannello Principale | Salva Parcheggio | Guida Bussola |
 |---|---|---|
-| ![Server Main](docs/screenshots/server_main.jpg) | ![Server Parking](docs/screenshots/server_parking.jpg) | ![Bussola](docs/screenshots/compass.jpg) |
+| <img src="docs/screenshots/server_main.jpg" width="200"/> | <img src="docs/screenshots/server_parking.jpg" width="200"/> | <img src="docs/screenshots/compass.jpg" width="200"/> |
 
 > La **Guida Bussola** ti indica la direzione e la distanza esatta dalla tua auto parcheggiata.
 
 ### Attivazione Licenza
-![Licenza](docs/screenshots/license.jpg)
+<img src="docs/screenshots/license.jpg" width="300"/>
 
 ---
 
@@ -71,6 +71,7 @@
 - **Radio Web** — migliaia di stazioni via Radio-Browser API con gestione preferiti
 - **Floating Sidebar** — barra laterale sempre visibile con controlli rapidi
 - **Discovery automatica** — si connette al telefono non appena riconosce l'hotspot Wi-Fi
+- **Smart Auto-Save Parking** — algoritmo intelligente che rileva la fine di un tragitto (velocità 0 km/h per 15s dopo aver superato i 15 km/h) e invia automaticamente il comando di salvataggio al Server con feedback visivo
 
 ---
 
