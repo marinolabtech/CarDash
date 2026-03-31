@@ -20,27 +20,27 @@
 ### Main Dashboard (Tablet)
 > Digital speedometer, active radio, app shortcuts and parking save — everything at a glance.
 
-<img src="docs/screenshots/dashboard_main.png" width="400"/>
+<img src="docs/screenshots/dashboard_main_en.png" width="400"/>
 
 ### Google Maps + Floating Sidebar
 > The tablet uses the phone's GPS to run Google Maps or Waze — even without hardware GPS. The floating sidebar stays always accessible.
 
-<img src="docs/screenshots/maps_floating.png" width="400"/>
+<img src="docs/screenshots/maps_floating_en.png" width="400"/>
 
 ### Integrated Web Radio
 > Thousands of Italian and worldwide stations, favorites and play/pause controls — without leaving the dashboard.
 
-<img src="docs/screenshots/radio.png" width="400"/>
+<img src="docs/screenshots/radio_en.png" width="400"/>
 
 ### Call Management
 > Dialpad and contacts synced directly from the phone, optimized for driving.
 
-<img src="docs/screenshots/telefono.png" width="400"/>
+<img src="docs/screenshots/phone_en.png" width="400"/>
 
 ### Save Parking (Tablet Dialog)
 > The system shows real-time GPS accuracy and warns you if the signal is weak before saving.
 
-<img src="docs/screenshots/parking_tablet.png" width="400"/>
+<img src="docs/screenshots/parking_tablet_en.png" width="400"/>
 
 ---
 
@@ -48,12 +48,12 @@
 
 | Main Panel | Save Parking | Compass Guide |
 |---|---|---|
-| <img src="docs/screenshots/server_main.jpg" width="200"/> | <img src="docs/screenshots/server_parking.jpg" width="200"/> | <img src="docs/screenshots/compass.jpg" width="200"/> |
+| <img src="docs/screenshots/server_main_en.jpg" width="200"/> | <img src="docs/screenshots/server_parking_en.jpg" width="200"/> | <img src="docs/screenshots/compass_en.jpg" width="200"/> |
 
 > The **Compass Guide** shows the direction and exact distance to your parked car.
 
 ### License Activation
-<img src="docs/screenshots/license.jpg" width="300"/>
+<img src="docs/screenshots/license_en.jpg" width="300"/>
 
 ---
 

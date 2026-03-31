@@ -20,27 +20,27 @@
 ### Dashboard Principale (Tablet)
 > Tachimetro digitale, radio attiva, scorciatoie alle app e salvataggio parcheggio — tutto in un colpo d'occhio.
 
-<img src="docs/screenshots/dashboard_main.png" width="400"/>
+<img src="docs/screenshots/dashboard_main_it.png" width="400"/>
 
 ### Google Maps + Floating Sidebar
 > Il tablet usa il GPS del telefono per navigare con Google Maps o Waze — anche senza GPS hardware. La barra laterale flottante rimane sempre accessibile.
 
-<img src="docs/screenshots/maps_floating.png" width="400"/>
+<img src="docs/screenshots/maps_floating_it.png" width="400"/>
 
 ### Radio Web Integrata
 > Migliaia di stazioni italiane e mondiali, preferiti e controlli play/pausa — tutto senza uscire dalla dashboard.
 
-<img src="docs/screenshots/radio.png" width="400"/>
+<img src="docs/screenshots/radio_it.png" width="400"/>
 
 ### Gestione Chiamate
 > Tastierino e rubrica sincronizzata direttamente dal telefono, ottimizzati per la guida.
 
-<img src="docs/screenshots/telefono.png" width="400"/>
+<img src="docs/screenshots/phone_it.png" width="400"/>
 
 ### Salva Parcheggio (Dialogo Tablet)
 > Il sistema mostra la precisione GPS in tempo reale e ti avvisa se il segnale è scarso prima di salvare.
 
-<img src="docs/screenshots/parking_tablet.png" width="400"/>
+<img src="docs/screenshots/parking_tablet_it.png" width="400"/>
 
 ---
 
@@ -48,12 +48,12 @@
 
 | Pannello Principale | Salva Parcheggio | Guida Bussola |
 |---|---|---|
-| <img src="docs/screenshots/server_main.jpg" width="200"/> | <img src="docs/screenshots/server_parking.jpg" width="200"/> | <img src="docs/screenshots/compass.jpg" width="200"/> |
+| <img src="docs/screenshots/server_main_it.jpg" width="200"/> | <img src="docs/screenshots/server_parking_it.jpg" width="200"/> | <img src="docs/screenshots/compass_it.jpg" width="200"/> |
 
 > La **Guida Bussola** ti indica la direzione e la distanza esatta dalla tua auto parcheggiata.
 
 ### Attivazione Licenza
-<img src="docs/screenshots/license.jpg" width="300"/>
+<img src="docs/screenshots/license_it.jpg" width="300"/>
 
 ---
 
