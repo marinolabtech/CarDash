@@ -75,6 +75,14 @@
 
 ---
 
+## 🎬 Video Guide
+
+| | 🇮🇹 Italiano | 🇬🇧 English |
+|---|---|---|
+| 📱 Installazione Server | [Guarda su YouTube](https://youtu.be/RtZ0KoxagCQ) | [Watch on YouTube](https://youtu.be/iZDD6ckDfog) |
+
+---
+
 ## 🚀 Come Iniziare
 
 ### Requisiti
