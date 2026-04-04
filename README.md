@@ -167,15 +167,10 @@ The project is a **multi-module Gradle system**:
 
 ## 🛠️ Build & Release
 
-### Release a new update
-
-1. `Build > Generate Signed Bundle / APK` → select the module → **Release** mode
-2. Files are located in `app-bridge/release` and `app-server/release`
-3. On GitHub go to **Releases → Create a new release**, create a tag (e.g. `v1.1`) and attach:
-   - `cardash_server.apk`
-   - `cardash_client.apk`
-4. Edit `cardash/version.json` incrementing `versionCode` and updating `changelog`
-5. On next launch, users receive an automatic update notification
+### Development requirements
+- Android Studio Hedgehog or higher
+- Android SDK minSdk 21, targetSdk 36
+- Foreground Service Types declared: `connectedDevice`, `location`, `mediaPlayback`
 
 ---
 
