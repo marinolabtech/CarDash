@@ -183,4 +183,4 @@ Il progetto è un sistema **multi-modulo Gradle**:
 
 ---
 
-**Sviluppato da [Marino Lab](https://marinolab.lemonsqueezy.com/) · CarDash System v1.0 · Ultimo aggiornamento: 28 Marzo 2026**
+**Sviluppato da [Marino Lab](https://marinolab.lemonsqueezy.com/) · CarDash System v1.1 · Ultimo aggiornamento: 28 Marzo 2026**
