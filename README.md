@@ -80,6 +80,7 @@
 | | 🇮🇹 Italiano | 🇬🇧 English |
 |---|---|---|
 | 📱 Server Installation | [Guarda su YouTube](https://youtu.be/RtZ0KoxagCQ) | [Watch on YouTube](https://youtu.be/iZDD6ckDfog) |
+| 🖥️ Client Installation | [Guarda su YouTube](https://youtu.be/ginWiQasmFY) | [Watch on YouTube](https://youtu.be/OWTKOR-zTcw) |
 
 ---
 
