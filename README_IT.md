@@ -79,8 +79,9 @@
 
 | | 🇮🇹 Italiano | 🇬🇧 English |
 |---|---|---|
-| 📱 Installazione Server | [Guarda su YouTube](https://youtu.be/RtZ0KoxagCQ) | [Watch on YouTube](https://youtu.be/iZDD6ckDfog) |
-| 🖥️ Installazione Client | [Guarda su YouTube](https://youtu.be/ginWiQasmFY) | [Watch on YouTube](https://youtu.be/OWTKOR-zTcw) |
+| 📱 Server Install | [Guarda su YouTube](https://youtu.be/RtZ0KoxagCQ) | [Watch on YouTube](https://youtu.be/iZDD6ckDfog) |
+| 🖥️ Client Install | [Guarda su YouTube](https://youtu.be/ginWiQasmFY) | [Watch on YouTube](https://youtu.be/OWTKOR-zTcw) |
+| 🖥️ Client Usage | [Guarda su YouTube](https://youtu.be/MzOJHf-w5m8) | [Watch on YouTube](https://youtu.be/MzOJHf-w5m8) |
 
 ---
 
