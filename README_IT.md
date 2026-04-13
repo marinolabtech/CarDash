@@ -77,6 +77,8 @@
 
 ## 🎬 Video Guide
 
+| Video | Youtube link |
+|---|---|
 | 📱 Installazione Server | [Guarda su YouTube](https://youtu.be/RtZ0KoxagCQ) |
 | 🖥️ Installazione Client | [Guarda su YouTube](https://youtu.be/ginWiQasmFY) |
 | 🖥️ Utilizzo Client | [Guarda su YouTube](https://youtu.be/MzOJHf-w5m8) |
