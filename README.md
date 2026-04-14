@@ -71,7 +71,7 @@
 - **Web Radio** — thousands of stations via Radio-Browser API with favorites management
 - **Floating Sidebar** — always-visible sidebar with quick controls
 - **Auto-discovery** — connects to the phone as soon as it detects the Wi-Fi hotspot
-- **Smart Auto-Save Parking** — intelligent algorithm that detects the end of a journey (speed 0 km/h for 15s after exceeding 15 km/h) and automatically or disconnection and automatically sends the save command to the Server with visual feedback
+- **Smart Auto-Save Parking** — intelligent algorithm that detects the end of a journey (speed 0 km/h for 15s after exceeding 15 km/h) or disconnection and automatically sends the save command to the Server with visual feedback
 
 ---
 
