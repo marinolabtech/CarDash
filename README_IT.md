@@ -71,7 +71,7 @@
 - **Radio Web** — migliaia di stazioni via Radio-Browser API con gestione preferiti
 - **Floating Sidebar** — barra laterale sempre visibile con controlli rapidi
 - **Discovery automatica** — si connette al telefono non appena riconosce l'hotspot Wi-Fi
-- **Smart Auto-Save Parking** — algoritmo intelligente che rileva la fine di un tragitto (velocità 0 km/h per 15s dopo aver superato i 15 km/h) e invia automaticamente il comando di salvataggio al Server con feedback visivo
+- **Smart Auto-Save Parking** — algoritmo intelligente che rileva la fine di un tragitto (velocità 0 km/h per 15s dopo aver superato i 15 km/h) o per disconnessione e invia automaticamente il comando di salvataggio al Server con feedback visivo
 
 ---
 
