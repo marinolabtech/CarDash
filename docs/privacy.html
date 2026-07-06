@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - CarDash Server</title>
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --secondary-color: #2c5282;
+            --accent-color: #48bb78;
+            --text-primary: #2d3748;
+            --text-secondary: #4a5568;
+            --bg-light: #f7fafc;
+            --white: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background-color: var(--bg-light);
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--white);
+            padding: 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border-color);
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--primary-color);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .meta {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 24px;
+            background: var(--accent-color);
+            margin-right: 12px;
+            border-radius: 2px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+        }
+
+        li {
+            padding: 12px;
+            background: #f8fafc;
+            border-left: 3px solid var(--primary-color);
+            margin-bottom: 10px;
+            border-radius: 0 4px 4px 0;
+            font-size: 0.95rem;
+        }
+
+        .highlight-box {
+            background: #f0fff4;
+            border: 1px solid #c6f6d5;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .highlight-box h3 {
+            color: #276749;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .highlight-box h3 svg {
+            margin-right: 10px;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .badge-secure {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="app-icon">CD</div>
+        <h1>CarDash Server</h1>
+        <div class="meta">Privacy Policy | Versione 1.1 | Luglio 2026</div>
+    </header>
+
+    <section>
+        <h2>Introduzione</h2>
+        <p>Questa Privacy Policy descrive come <strong>CarDash Server</strong> (l'Applicazione) raccoglie, utilizza e protegge i dati personali dell'utente. L'Applicazione funge da gateway locale per trasmettere informazioni dal proprio smartphone a un tablet secondario (Dashboard) all'interno dello stesso veicolo.</p>
+    </section>
+
+    <section>
+        <h2>Dati Raccolti e Permessi Sensibili</h2>
+        <p>Per offrire le sue funzionalità principali, l'Applicazione richiede l'accesso ai seguenti dati, che vengono gestiti esclusivamente per scopi di mirroring sul dispositivo Bridge dell'utente:</p>
+        <ul>
+            <li><strong>Contatti e Registro Chiamate:</strong> Utilizzati per permettere la visualizzazione dell'identità del chiamante e la gestione delle chiamate direttamente dal tablet Dashboard.</li>
+            <li><strong>Posizione GPS (Fine/Background):</strong> Necessaria per la funzione "Parking Tracker" e per fornire telemetria accurata al tablet durante la navigazione.</li>
+            <li><strong>Notifiche (Servizio Listener):</strong> Utilizzato per inoltrare i messaggi (es. WhatsApp, Telegram) al tablet Dashboard per una guida più sicura.</li>
+            <li><strong>Stato del Telefono:</strong> Necessario per rilevare chiamate in arrivo e gestire l'interfaccia di risposta remota.</li>
+        </ul>
+    </section>
+
+    <div class="highlight-box">
+        <h3>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Sicurezza e Crittografia AES-256
+        </h3>
+        <p><strong>La tua privacy è la nostra priorità.</strong> Tutti i dati trasmessi tra lo smartphone e il tablet attraverso la rete locale (Wi-Fi o Hotspot) sono protetti da uno strato di crittografia avanzata <strong>AES-256</strong>.</p>
+        <p>Nessun dato personale viene mai inviato a server esterni, a terze parti o a Marino Lab. La comunicazione avviene esclusivamente "Peer-to-Peer" all'interno della rete privata dell'utente.</p>
+    </div>
+
+    <section>
+        <h2>Utilizzo dei Dati</h2>
+        <p>I dati raccolti non vengono mai venduti, noleggiati o condivisi. Vengono utilizzati esclusivamente per:</p>
+        <ol style="margin-left: 20px; margin-bottom: 20px; color: var(--text-secondary);">
+            <li>Visualizzare le informazioni di guida sul tablet connesso.</li>
+            <li>Gestire le funzioni telefoniche da remoto.</li>
+            <li>Memorizzare localmente la posizione del parcheggio per il successivo ritrovamento del veicolo.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Diritti dell'Utente</h2>
+        <p>L'utente può revocare l'accesso ai permessi in qualsiasi momento tramite le impostazioni di sistema di Android o tramite l'attività dedicata nell'app. La revoca di alcuni permessi (es. Contatti o Chiamate) disabiliterà le relative funzioni di mirroring.</p>
+    </section>
+
+    <footer>
+        <p>Sviluppato da <strong>Marino Lab</strong></p>
+        <p><a href="https://www.marinolab.it" style="color: var(--secondary-color); text-decoration: none;">www.marinolab.it</a></p>
+        <p>© 2026 CarDash System. Tutti i diritti riservati.</p>
+    </footer>
+</div>
+
+</body>
+</html>
