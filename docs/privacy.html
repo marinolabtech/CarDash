@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - CarDash Server</title>
+    <title>Privacy Policy - CarDash System (Server & Bridge)</title>
     <style>
         :root {
             --primary-color: #1a365d;
@@ -62,7 +62,7 @@
 
         h1 {
             color: var(--primary-color);
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             margin-bottom: 10px;
         }
 
@@ -100,18 +100,39 @@
             color: var(--text-secondary);
         }
 
+        .system-modules {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .module-card {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 4px solid var(--primary-color);
+        }
+
+        .module-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
         ul {
             list-style: none;
             margin-bottom: 20px;
         }
 
         li {
-            padding: 12px;
-            background: #f8fafc;
-            border-left: 3px solid var(--primary-color);
-            margin-bottom: 10px;
+            padding: 10px;
+            background: #ffffff;
+            border-left: 3px solid var(--accent-color);
+            margin-bottom: 8px;
             border-radius: 0 4px 4px 0;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
         }
 
         .highlight-box {
@@ -129,10 +150,6 @@
             align-items: center;
         }
 
-        .highlight-box h3 svg {
-            margin-right: 10px;
-        }
-
         footer {
             margin-top: 60px;
             padding-top: 30px;
@@ -143,12 +160,9 @@
         }
 
         @media (max-width: 600px) {
-            .container {
-                padding: 30px 20px;
-            }
-            h1 {
-                font-size: 1.8rem;
-            }
+            .container { padding: 30px 20px; }
+            .system-modules { grid-template-columns: 1fr; }
+            h1 { font-size: 1.8rem; }
         }
     </style>
 </head>
@@ -156,49 +170,58 @@
 
 <div class="container">
     <header>
-        <div class="app-icon">CD</div>
-        <h1>CarDash Server</h1>
-        <div class="meta">Privacy Policy | Version 1.1 | July 2026</div>
+        <div class="app-icon">CS</div>
+        <h1>Privacy Policy - CarDash System</h1>
+        <div class="meta">Valid for CarDash Server & CarDash Bridge | July 2026</div>
     </header>
 
     <section>
         <h2>Introduction</h2>
-        <p>This Privacy Policy describes how <strong>CarDash Server</strong> (the "Application") collects, uses, and protects your personal data. The Application acts as a local gateway to transmit information from your smartphone to a secondary tablet device (Dashboard Bridge) within the same vehicle.</p>
+        <p>This Privacy Policy applies to the entire <strong>CarDash System</strong> ecosystem, including the <strong>CarDash Server</strong> (for smartphones) and <strong>CarDash Bridge</strong> (for tablets/infotainment) applications.</p>
+        <p>The system is designed to operate as an integrated unit, enabling secure data exchange between your own Android devices within a vehicle.</p>
     </section>
 
     <section>
-        <h2>Data Collection and Sensitive Permissions</h2>
-        <p>To provide its core functionality, the Application requires access to the following data, which is handled exclusively for mirroring purposes on your connected Bridge device:</p>
+        <h2>System Structure</h2>
+        <div class="system-modules">
+            <div class="module-card">
+                <h3>CarDash Server (Smartphone)</h3>
+                <p>Acts as the data source (Calls, Contacts, SMS, Notifications, and GPS).</p>
+            </div>
+            <div class="module-card">
+                <h3>CarDash Bridge (Tablet)</h3>
+                <p>Acts as the receiver and user interface (Dashboard, Radio, Navigation).</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Data Collection and Purpose</h2>
+        <p>The system accesses and exchanges the following data exclusively to enable the infotainment features:</p>
         <ul>
-            <li><strong>Contacts and Call Logs:</strong> Used to display caller identity and manage phone calls directly from the Dashboard tablet.</li>
-            <li><strong>GPS Location (Fine/Background):</strong> Necessary for the "Parking Tracker" feature and to provide accurate telemetry to the tablet during navigation.</li>
-            <li><strong>Notifications (Listener Service):</strong> Used to forward messages (e.g., WhatsApp, Telegram) to the Dashboard tablet for safer driving.</li>
-            <li><strong>Phone State:</strong> Required to detect incoming calls and manage the remote answering interface.</li>
+            <li><strong>Caller ID and Contacts:</strong> To display and manage calls on the tablet.</li>
+            <li><strong>System Notifications:</strong> To show incoming messages (e.g., WhatsApp) on the Dashboard.</li>
+            <li><strong>GPS Location:</strong> For navigation and vehicle retrieval (Parking Tracker).</li>
+            <li><strong>Web Radio Data:</strong> Only for multimedia streaming requested by the user.</li>
         </ul>
     </section>
 
     <div class="highlight-box">
         <h3>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-            Security and AES-256 Encryption
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:10px;"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            Data Security and AES-256
         </h3>
-        <p><strong>Your privacy is our priority.</strong> All data transmitted between the smartphone and the tablet over the local network (Wi-Fi or Hotspot) is protected by an advanced <strong>AES-256 encryption</strong> layer.</p>
-        <p>No personal data is ever sent to external servers, third parties, or Marino Lab. Communication occurs exclusively "Peer-to-Peer" within your private local network.</p>
+        <p>All communication between the Server and Bridge apps takes place over a local Wi-Fi connection encrypted with <strong>AES-256</strong> standards. No personal data is ever sent to external servers, third parties, or the developers. The data remains under the user's exclusive control within their private local network.</p>
     </div>
 
     <section>
-        <h2>Data Usage</h2>
-        <p>Collected data is never sold, rented, or shared. It is used solely to:</p>
-        <ol style="margin-left: 20px; margin-bottom: 20px; color: var(--text-secondary);">
-            <li>Display driving information on the connected tablet.</li>
-            <li>Manage phone functions remotely.</li>
-            <li>Locally store the parking location for later vehicle retrieval.</li>
-        </ol>
+        <h2>Google Play Billing</h2>
+        <p>CarDash Server manages in-app purchases via Google Play Billing. Payment information is handled exclusively by Google; the application only receives confirmation of the license status to unlock Premium features on both connected devices.</p>
     </section>
 
     <section>
-        <h2>User Rights</h2>
-        <p>Users can revoke access to permissions at any time through Android system settings or via the dedicated activity within the app. Revoking certain permissions (e.g., Contacts or Call Logs) will disable the respective mirroring functions.</p>
+        <h2>User Rights and Control</h2>
+        <p>The user has full control over the permissions granted to both applications via Android system settings. Revoking permissions will result in the deactivation of the respective mirroring features.</p>
     </section>
 
     <footer>
